@@ -5,8 +5,8 @@ jobs:
   check_docker:
     runs-on: ubuntu-latest
     steps:
-      -name: show docker version
-      run: docker --version
+      - name: show docker version
+        run: docker --version
 
       
 
